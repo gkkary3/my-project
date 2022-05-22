@@ -87,6 +87,12 @@ a {
     top:20px;
     right:52px;
 }
+.fa-arrow-right-to-bracket{
+    color:white;
+    position:absolute;
+    top:40px;
+    right:52px;
+}
 .seconds p{
     position:absolute;
     top:15px;
