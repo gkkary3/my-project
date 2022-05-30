@@ -93,11 +93,25 @@ a {
     top:40px;
     right:52px;
 }
-.seconds p{
+.seconds p:nth-of-type(1){
     position:absolute;
     top:15px;
     right:10px;
     color:white;
+}
+.seconds a:nth-of-type(2){
+    position: absolute;
+    top: 35px;
+    right: 157px;
+    color: white;
+    font-size:13px;
+}
+.seconds a:nth-of-type(3){
+    position: absolute;
+    top: 35px;
+    right: 107px;
+    color: white;
+    font-size:13px;
 }
 .container img{
     position:absolute;
@@ -142,14 +156,14 @@ a {
     width: 100px;
     height: 35px;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
     position: absolute;
     right: 0px;
     font: bold 15px "arial";
     top: 145px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 	
 }
 
@@ -160,14 +174,15 @@ a {
     width: 100px;
     height: 35px;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
     position: absolute;
     right: 0px;
     top: 181px;
     font: bold 15px "arial";
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    box-shadow: 5px 5px 10px black;
 	opacity: 0.3;
 }
 .fa-bars{
@@ -183,4 +198,7 @@ a {
     right:32px;
     color:white;
     font: bold 15px "arial";
+}
+.login{
+
 }
