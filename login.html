@@ -8,6 +8,8 @@
     
     <link rel="stylesheet" href="css/qna.css">
     <link rel="stylesheet" href="css/notice.css">
+    <link rel="stylesheet" href="css/login.css">
+    
     <script src="https://kit.fontawesome.com/243327ab3a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -16,51 +18,30 @@
         <a href="./index.html" class="header fixed">Hotel LaLa</a>
         
         <div class="first">
-            <h1 class="notice">NOTICE</h1>
-            <h3 class="notice_subtitle">공지사항</h3>
-            <div class="notice_table-wrap">
-                <table class="tab1">
-                    <tbody>
-                        <tr>
-                            <th>번호</th>
-                            <th>제목</th>
-                            <th>등록일</th>
-                        </tr>
-                        <tr>
-                            <td>[ NOTICE ]</td>
-                            <td>
-                                <a href="#">호텔 사용 안내</a>
-                            </td>
-                            <td>
-                                <P>2022.05.23</P>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td> 2 </td>
-                            <td>
-                                <a href="#">객실 변경 안내</a>
-                            </td>
-                            <td>
-                                <p>2022.05.23</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td> 1 </td>
-                            <td>
-                                <a href="#">호텔 라라 이벤트</a>
-                            </td>
-                            <td>
-                                <p>2022.05.21</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="seq">
-                    <ul>
-                        <li class="active1">
-                            <a href="">1</a>
-                        </li>
-                    </ul>
+            <h1 class="notice">Sing in</h1>
+            <h4 class="notice_subtitle">라라호텔만의 특별함을 느껴보세요.</h4>
+            <div class="memberLogin">
+                <p class="loginFrm">
+                    <span class="alertMessage">아이디를 입력해주세요.</span>
+                    <label for="frm_userid" class="hidden">아이디</label>
+                    <input type="text" id="frm_userId" placeholder="아이디">
+                </p>
+                <p class="loginFrm">
+                    <span class="alertMessage">비밀번호를 입력해주세요.</span>
+                    <label for="frm_userpw" class="hidden">비밀번호</label>
+                    <input type="password" id="frm_userpw" placeholder="비밀번호">
+                </p>
+                <span class="frm">
+                    <span class="chkstyle">
+                        <i class="fa-solid fa-check"></i>
+                        <input type="checkbox" id="idSaveCheck">
+                    </span>
+                    <label for="idSaveCheck">아이디 저장</label>
+                </span>
+                <button type="button" class="loginBtn">로그인</button>
+                <div class="loginLink">
+                    <a href="signup.html">회원가입</a>
+                    <a href="">아이디/비밀번호 찾기</a>
                 </div>
             </div>
         </div>
@@ -71,8 +52,7 @@
             <a href="#" class="first_bar">
                 <i class="fa-solid fa-x cursor"></i>
                 <p class="cursor" style="">close</p>
-                <a href="login.html
-                "><p class="login cursor">Login</p></a>
+                <a href="login.html"><p class="login cursor">Login</p></a>
                 <a href="signup.html"><p class="signup cursor">signUp</p></a>
             </a>
 
@@ -136,5 +116,6 @@
         </div>
     </footer>
     <script src="js/index.js"></script>
+    <script src="js/login.js"></script>
 </body>
 </html>

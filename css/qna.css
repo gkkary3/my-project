@@ -376,3 +376,17 @@ footer .inner .lower p {
 	font: 12px/1 "arial";
 	color: #777;
 }
+.seconds a:nth-of-type(2){
+    position: absolute;
+    top: 35px;
+    right: 157px;
+    color: white;
+    font-size:13px;
+}
+.seconds a:nth-of-type(3){
+    position: absolute;
+    top: 35px;
+    right: 107px;
+    color: white;
+    font-size:13px;
+}

@@ -86,7 +86,7 @@
     display:block;
     transition: all 0.3s ease;
 }
-.avtive{
+.active1{
     bottom: 0px;
     z-index: 0;
     overflow: hidden;
@@ -129,13 +129,22 @@
     justify-content: space-between;
     margin-bottom: 15px;
 }
-.fa-angle-up{
-    display: none;
-    color: red;
-    width: 15px;
-    height: 15px;
-}
 
+.exit{
+    display:none;
+}
+.up{
+    display:none;
+}
+.active{
+    display:block;
+}
+.inner{
+    display:none;
+}
+.inner.active{
+    display:block;
+}
 /* .fa-angle-up.active{
     display:span;
 }
@@ -154,4 +163,11 @@
     border:1px solid black;
     background-color: #ddd;
     border:none;
+    cursor: pointer;
+}
+.accordion-title a:nth-of-type(1){
+    display:none;
+}
+.up{
+    color:red;
 }

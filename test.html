@@ -23,7 +23,13 @@
             display:none;
         }
         .active{
-            display:inline-block;
+            display:block;
+        }
+        .inner{
+            display:none;
+        }
+        .inner.active{
+            display:block;
         }
         /* .fa-angle-down.active{
             display:inline-block;
@@ -34,17 +40,26 @@
     </style>
 </head>
 <body>
-    <div>
+    <div class="btn">
         <a href="#"><i class="fa-solid fa-angle-up up"></i></a>
          <a href="#"><i class="fa-solid fa-angle-down down"></i></a>
+         <div class="inner">
+            <p>안녕하세요반갑습니다</p>
+        </div>
     </div>
-    <div>
+    <div class="btn1">
         <a href="#"><i class="fa-solid fa-angle-up up"></i></a>
          <a href="#"><i class="fa-solid fa-angle-down down"></i></a>
+         <div class="inner">
+             <p>안녕하세요반갑습니다</p>
+         </div>
     </div>
-    <div>
+    <div class="btn2">
         <a href="#"><i class="fa-solid fa-angle-up up"></i></a>
          <a href="#"><i class="fa-solid fa-angle-down down"></i></a>
+         <div class="inner">
+            <p>안녕하세요반갑습니다</p>
+        </div>
     </div>
     <script src="js/test.js"></script>
 </body>

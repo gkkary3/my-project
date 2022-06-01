@@ -1,3 +1,4 @@
+
 const toggleBtn = document.querySelector('.seconds_bar');
 const toggleBtn2 = document.querySelector('.first_bar');
 const seconds = document.querySelector('.seconds');
